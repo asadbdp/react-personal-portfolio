@@ -5,7 +5,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import OverscrollPlugin from "smooth-scrollbar/plugins/overscroll";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Profile from "../assets/images/profile.jpg";
-import Cv from "../assets/cv/asaduzzaman-cv.pdf";
+import CV from "../assets/cv/asaduzzaman-cv.pdf";
 
 Scrollbar.use(OverscrollPlugin);
 import CircleProgress from "./CircleProgress";
@@ -270,7 +270,7 @@ const Sidebar = () => {
               <div className="art-links-frame p-15-15">
 
                 
-                <a href={Cv} className="art-link" download>Download cv <i className="fas fa-download"></i></a>
+                <a href={CV} className="art-link" download>Download cv <i className="fas fa-download"></i></a>
 
               </div>
               
